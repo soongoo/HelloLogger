@@ -9,6 +9,8 @@ public class HelloLogger {
 	public static void main(String[] args) {
 		System.out.println("Hello, Logger at" + new Date());
 		logger.info("Hello, Logger. <Logger info>");
+		logger.debug("Hello, Logger. <Logger debug>");
+		logger.error("Hello, Logger. <Logger error>");
 
 	}
 
